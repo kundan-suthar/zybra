@@ -9,7 +9,6 @@ import {
   SortingState,
   getSortedRowModel,
   useReactTable,
-  getPaginationRowModel,
   VisibilityState,
 } from "@tanstack/react-table"
 
