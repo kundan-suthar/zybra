@@ -1,7 +1,7 @@
-import { Payment, columns } from "./columns"
+import { User, columns } from "./columns"
 import { DataTable } from "./data-table"
 
-async function getData(): Promise<Payment[]> {
+async function getData(): Promise<User[]> {
   // Fetch data from your API here.
    const res = await fetch("https://jsonplaceholder.typicode.com/users");
    //console.log(res.json());
